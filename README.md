@@ -22,7 +22,7 @@ https://pages.oss.navercorp.com/nsml/docs.nsml/_build/html/ko_KR/index.html
 
 ### session 돌리기
 
-위 독스 링크에 설명이 있으나, 참고를 위해 제가 쓰고 있는 명령어를 참고해서 아래에 붙입니다.
+위 독스 링크에 설명이 있으나, 참고를 위해 제가 쓰고 있는 명령어를 참고를 위해 아래에 붙입니다.
 ```
 nsml run -d gy_ffhq256_1k_zip -g 4 -c 8 -v -e train.py --memory 64G --shm-size 64G --gpu-driver-version 418.39 -a "--outdir=./output/ --data=train/ffhq256x256_1k.zip --cfg paper256 --gpus=4 --aug=noaug"
 ```
