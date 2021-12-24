@@ -26,13 +26,13 @@ https://pages.oss.navercorp.com/nsml/docs.nsml/_build/html/ko_KR/index.html
 ```
 nsml run -d gy_ffhq256_1k_zip -g 4 -c 8 -v -e train.py --memory 64G --shm-size 64G --gpu-driver-version 418.39 -a "--outdir=./output/ --data=train/ffhq256x256_1k.zip --cfg paper256 --gpus=4 --aug=noaug"
 ```
-- -d gy_ffhq256_1k_zip
-- -g 4 세션에 할당할 지피유 개수
-- -c 8 세션에 할당할 cpu 개수
-- --memory 64G 메모리
-- --shm-size 64G shared memory가 작으면 torch에서 잘 터져서 추가했습니다.
-- --gpu-driver-version 418.39 특정 드라이버 이후의 머신을 배정받으려면 사용합니다.
-- -a "--outdir..." 메인 실행파일에 들어가는 config 인자들입니다.
+- -d gy_ffhq256_1k_zip : 데이터 이름
+- -g 4 : 세션에 할당할 지피유 개수
+- -c 8 : 세션에 할당할 cpu 개수
+- --memory 64G : 메모리
+- --shm-size 64G : shared memory가 작으면 torch에서 잘 터져서 추가했습니다.
+- --gpu-driver-version 418.39 : 특정 드라이버 이후의 머신을 배정받으려면 사용합니다.
+- -a "--outdir..." : 메인 실행파일에 들어가는 config 인자들입니다.
   
 
 
