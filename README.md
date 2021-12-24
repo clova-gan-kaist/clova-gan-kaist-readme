@@ -15,10 +15,14 @@ https://ai.nsml.navercorp.com/download
 
 nsml login을 터미널에 치시고 웹 로그인 할 때와 같은 아이디/비번을 사용하시면 됩니다.
 
-### session 돌리기
-https://n-clair.github.io/ai-docs/_build/html/en_US/contents/session/run_a_session.html
+### nsml 독스
+https://pages.oss.navercorp.com/nsml/docs.nsml/_build/html/ko_KR/index.html
 
-이 문서에 작성되어 있으나, 현재는 사내용 docs만 업데이트가 되고 있는 것 같습니다. 제가 쓰고 있는 명령어를 참고해서 아래에 붙이면
+이 문서에 작성되어 있습니다. (ai.nsml에서 연결된 독스는 업데이트가 되고 있지 않으니 위 링크를 확인해주세요)
+
+### session 돌리기
+
+위 독스 링크에 설명이 있으나, 참고를 위해 제가 쓰고 있는 명령어를 참고해서 아래에 붙입니다.
 ```
 nsml run -d gy_ffhq256_1k_zip -g 4 -c 8 -v -e train.py --memory 64G --shm-size 64G --gpu-driver-version 418.39 -a "--outdir=./output/ --data=train/ffhq256x256_1k.zip --cfg paper256 --gpus=4 --aug=noaug"
 ```
