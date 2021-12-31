@@ -22,6 +22,10 @@ https://pages.oss.navercorp.com/nsml/docs.nsml/_build/html/ko_KR/index.html
 
 이 문서에 작성되어 있습니다. (ai.nsml에서 연결된 독스는 업데이트가 되고 있지 않으니 위 링크를 확인해주세요)
 
+Update : 사외망으로 열리지 않으면 outdated 되어있지만... 아래 링크 참조해주세요~
+
+https://n-clair.github.io/ai-docs/_build/html/en_US/index.html 
+
 ### session 돌리기
 
 위 독스 링크에 설명이 있으나, 참고를 위해 제가 쓰고 있는 명령어를 참고를 위해 아래에 붙입니다.
